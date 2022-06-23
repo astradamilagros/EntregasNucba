@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: rgb(58, 164, 120);
+    align-items: center;
+    margin: 0%;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color:white
+}
+.logo {
+    display: flex;
+}
+.logo img{
+    width:100px;
+    height: 90px;
+    border-radius: 100%;
+
+}
+nav{
+    padding-right: 10px;  
+}
+nav :hover{
+    color:rgb(2, 29, 18)
+}
